@@ -70,8 +70,3 @@ const animateQuort=(quort)=>{
     }
 }
 //quorts section ends
-const underDevelopment = document.getElementById('underDevelopment')
-underDevelopment.onclick=()=> {
-    underDevelopment.innerHTML='Still Under Development Sorry'
-    underDevelopment.style.color='red'
-}
