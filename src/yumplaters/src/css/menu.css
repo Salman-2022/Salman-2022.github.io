@@ -5,6 +5,7 @@ body {
     padding: 0;
 }
 
+
 header {
     text-align: center;
     padding: 20px;
@@ -14,7 +15,6 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 section {
     margin: 20px;
 }
@@ -63,4 +63,20 @@ button{
 a{
     text-decoration: none;
     color: inherit;
+}
+@media screen and (max-width: 767px) {
+    /* Styles specific to mobile view go here */
+
+    /* For example, let's change the background color to light gray */
+    nav {
+        font-size: 0.8rem;
+        margin-top: 40px;
+        margin-top: -70px;
+    }
+    header{
+        height: 150px;
+        margin-top: -50px;
+    }
+
+    /* You can add more styles for mobile view as needed */
 }

@@ -11,6 +11,7 @@ body {
 }
  
 
+
 header {
     display: flex;
     justify-content: space-around;
@@ -157,10 +158,3 @@ footer {
     color: white;
 }
 
-.hamburger {
-    display: none;
-    color: rgb(0, 0, 0);
-    font-size: 1.5rem;
-    cursor: pointer;
-}
- 

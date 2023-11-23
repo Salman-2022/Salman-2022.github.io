@@ -5,6 +5,7 @@ body {
   padding: 0;
 }
 
+
 header {
   text-align: center;
   padding: 20px;
@@ -13,6 +14,17 @@ header {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
 }
 
 main {
@@ -53,4 +65,24 @@ footer {
 a{
   text-decoration: none;
   color: inherit;
+}
+@media screen and (max-width: 767px) {
+  /* Styles specific to mobile view go here */
+
+  /* For example, let's change the background color to light gray */
+  nav {
+      font-size: 0.8rem;
+      margin-top: 40px;
+      margin-top: -5px;
+  }
+  header{
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      margin-top: -10px;
+      height: 150px;
+      padding: 0px;
+  }
+
+  /* You can add more styles for mobile view as needed */
 }
